@@ -1,0 +1,25 @@
+.carousel-image{
+    height: 600px;
+}
+
+.carousel-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}
+
+.point{
+    width: 30px;
+    height: 30px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+}
+
+.ms_active{
+    background-color: white;
+    border: 3px solid #0d6efd;
+}
